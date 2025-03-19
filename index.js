@@ -7,7 +7,7 @@ const ramens = [
     { id: 5, name: "shoyu Ramen", restaurant: "Dabro", image: "images/shoyu.jpg", rating: 10, comment: "Marvelous" }
 ];
 
-/
+
 function displayRamens() {
     const ramenMenu = document.getElementById("ramen-menu");
 
