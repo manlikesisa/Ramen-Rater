@@ -1,0 +1,163 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+
+}
+
+header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 10px;
+  font-weight: bold;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+#new-ramen {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 80px auto 20px;    
+  max-width: 500px;      
+  text-align: center;     
+}
+
+
+#new-ramen h2 {
+  font-size: 24px;
+  color: #444;
+  margin-bottom: 20px;  
+}
+
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form textarea {
+  resize: vertical;
+  height: 100px;
+}
+
+
+form button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+form button:hover {
+  background-color: #218838;
+}
+
+
+#delete-ramen {
+  background-color: #dc3545;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#delete-ramen:hover {
+  background-color: #c82333;
+}
+
+#ramen-menu {
+  display: flex;
+  justify-content: center;  
+  align-items: center;      
+  gap: 10px;
+  flex-wrap: wrap;          
+  padding: 20px;
+  margin-top: 80px;   
+  
+  background-image: url('images/ramen-background.jpg');  
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+
+
+
+}
+
+
+.ramen-image {
+  width: 80px;   
+  height: 80px; 
+  object-fit: cover;  
+  border-radius: 8px;  
+  cursor: pointer;
+  transition: transform 0.2s;  
+}
+
+.ramen-image:hover {
+  transform: scale(1.1);  
+  opacity: 0.8;  
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+#ramen-detail {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 100px auto 20px;
+  text-align: center;
+  max-width: 600px;
+}
+
+#ramen-detail img {
+  max-width: 100px;
+  height: auto;
+  border-radius: 8px;
+}
+
+#ramen-detail h2 {
+  margin-top: 10px;
+  font-size: 24px;
+  color: #444;
+}
+
+#ramen-detail h3 {
+  font-size: 18px;
+  color: #666;
+}
+
+#ramen-detail p {
+  font-size: 16px;
+  color: #555;
+}
+
+
